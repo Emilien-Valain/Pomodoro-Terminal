@@ -19,7 +19,7 @@ A simple and elegant Pomodoro timer for your terminal, designed for Arch Linux w
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/pomodoro-terminal-timer.git
+https://github.com/Emilien-Valain/Pomodoro-Terminal.git
 
 # Add to your shell configuration
 cat pomodoro-terminal-timer/pomodoro.zsh >> ~/.zshrc
@@ -37,10 +37,10 @@ Install the required dependencies on Arch Linux:
 
 ```bash
 # Required
-sudo pacman -S timer lolcat
+yay -S timer lolcat
 
 # Optional (for notifications and sound)
-sudo pacman -S libnotify pulseaudio-utils
+yay -S libnotify pulseaudio-utils
 ```
 
 ## 🎯 Usage
